@@ -8,6 +8,9 @@ body{
     margin-bottom: 5px;
     float: left;
 }
+div{
+/*    min-height: 20px;*/
+}
 .col1 {
     width: 7.25%; 
 }

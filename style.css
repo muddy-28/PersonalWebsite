@@ -4,7 +4,6 @@ p, a, li, h1, h2, h3, h4, h5 {
     color: #25a5e5;
     font-style:normal;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: left;
 }
 a:hover {
@@ -18,10 +17,12 @@ a:hover {
     margin-top: 8px;
     font-size: 23px;
     margin-bottom: 0;
+    text-transform: uppercase;
 /*    float: left;*/
 }
 #title h2 {
     color: #4f829e;
+    text-transform: uppercase;
 /*    float: left;*/
 }
 html {
@@ -36,7 +37,7 @@ nav {
     
 }
 header {
-    margin-top: 45px;
+    padding-top: 45px;
 }
 body {
     
@@ -48,7 +49,7 @@ body {
     margin-bottom: 10px;
 }
 #tall {
-/*    height: 2000px; */
+height: 2000px; 
 }
 nav ul {
     float: right;
@@ -58,4 +59,15 @@ nav ul li {
     list-style: none;
 /*    line-height: 100px;*/
     margin-left: 15px;
+    text-align: right;
+    
+}
+header nav ul li {
+    text-transform: uppercase;
+}
+footer p {
+    font-size: 14px;
+}
+#horizLine{
+    border-top: 1px solid #4f829e;
 }
