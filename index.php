@@ -1,3 +1,4 @@
+<?php require_once( 'couch/cms.php' ); ?>
 <!doctype html>
 <html>
 <head>
@@ -31,9 +32,13 @@
     <div id="tall" class="clear"></div>
     
     <div class="col1"></div>
+    <cms:editable name='main_content_left' type='richtext'>
     <div class="col4" id="mainpagecontentbox"></div>
+    </cms:editable>
     <div class="col2"></div>
+    <cms:editable name='main_content_right' type='richtext'>
     <div class="col4" id="mainpagecontentbox"></div>
+    </cms:editable>
     <div class="col1"></div>
     
         
@@ -62,3 +67,4 @@
 
 </body>
 </html>
+<?php COUCH::invoke(); ?>
