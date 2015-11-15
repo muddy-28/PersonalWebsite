@@ -1,12 +1,15 @@
 <header>
+    <script src="jquery-2.1.4.min.js"></script>
         <div class="col1"></div>
-        <a href="index.php" class="col1"><img src="Images/logo100.gif"></a>
-        <div id="title" class="col3" class="clear" >
+    <div class="col1" id="logoDiv">
+        <a href="index.php"><img class="center-cropped" src="Images/logo400.gif"></a>
+        </div>
+        <div id="title" class="col4" class="clear" >
             
             <h1>Jonathan Champion</h1>
             <h2>Game Programmer</h2>
         </div>
-        <nav class="col6" >
+        <nav class="col5" >
             
             
             

@@ -16,4 +16,5 @@
         </nav>
         <div class="col1"></div>
         <div class="clear"></div>
+    
     </footer>

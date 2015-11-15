@@ -15,6 +15,13 @@ header img{
     padding-left: 1%;
     float: left;
 }
+#logoDiv {
+    background-image: url(Images/logo100.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
 #title h1 {
     margin-top: 8px;
     font-size: 23px;
@@ -34,6 +41,7 @@ html {
     min-height: 100%;
     padding: 10px;
     box-sizing: border-box;
+    min-width: 365px;
 }
 nav {
     
@@ -58,6 +66,7 @@ body {
 }
 nav ul {
     float: right;
+    padding: 0;
 }
 nav ul li {
     float: left;
@@ -86,18 +95,22 @@ footer p {
     height: 1px;
     background: #4f829e;
 }
-#mainpagecontentbox{
+.mainpagecontentbox{
     margin-top: 3%;
     margin-bottom: 3%;
-    height: 30vw;
+/*    height: 30vw;*/
     border: 4px solid #25a5e5;
     box-sizing:border-box;
+    background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
     
 }
-#mainpagecontentbox a {
-    
+.middle{
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
+
 .center-cropped {
   min-height: 100%;
   min-width: 100%;
@@ -110,3 +123,91 @@ footer p {
     
 }
 
+@media screen and (max-width: 900px){
+    .mainpagecontentbox  {
+        width: 81.5%;
+        
+    }
+    #homepagemiddle {
+        width: 7.25%;
+    }
+    header nav.col5{
+        padding-left: 8.25%;
+        width: 81.5%;
+    }
+    header nav ul {
+        width: 100%;
+    }
+    header nav ul li {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        
+    }
+    header nav ul a {
+        font-size: 18px;
+    }
+    #logoDiv {
+        width: 23.75%;
+    }
+    #title {
+        width: 56.75%;
+    }
+    #title h1 {
+        float: right;
+        text-align: right;
+        font-size: 30px;
+    }
+    #title h2 {
+        float: right;
+    }
+}
+@media screen and (max-width: 460px){
+    #logoDiv {
+        width: 81.5%;
+        
+    }
+    #title {
+        clear: both;
+        width: 81.5%;
+        float: none;
+        margin-left: 8.25%;
+        height: auto;
+    }
+    #title h1{
+        margin: 0;
+        font-size: 50px;
+        text-align: center;
+        float: none;
+        clear: both;
+    }
+    #title h2 {
+        width: 100%;
+        margin: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    header nav.col5 {
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul {
+        padding: 0;
+        float: left;
+        width: 100%;
+    }
+    header nav ul li {
+        padding-top: 20px;
+        float: left;
+        padding-left: 0;
+        text-align: center;
+        width: 50%;
+        margin-left: 0;
+        
+    }
+    header nav a {
+        font-size: 28px;
+    }
+}
