@@ -125,15 +125,18 @@ footer p {
 
 @media screen and (max-width: 900px){
     .mainpagecontentbox  {
-        width: 81.5%;
+        width: 80.81%;
+        margin-right: 2%;
         
     }
+    
+    
     #homepagemiddle {
-        width: 7.25%;
+        width: 8.09%;
     }
-    header nav.col5{
-        padding-left: 8.25%;
-        width: 81.5%;
+    header nav.col4{
+        padding-left: 9.09%;
+        width: 80.81%;
     }
     header nav ul {
         width: 100%;
@@ -149,10 +152,10 @@ footer p {
         font-size: 18px;
     }
     #logoDiv {
-        width: 23.75%;
+        width: 17.18%;
     }
     #title {
-        width: 56.75%;
+        width: 62.63%;
     }
     #title h1 {
         float: right;
@@ -161,6 +164,7 @@ footer p {
     }
     #title h2 {
         float: right;
+        padding-left: 30px;
     }
 }
 @media screen and (max-width: 460px){
@@ -188,7 +192,7 @@ footer p {
         font-size: 24px;
         text-align: center;
     }
-    header nav.col5 {
+    header nav.col4 {
         width:100%;
         margin: 0;
         padding: 0;

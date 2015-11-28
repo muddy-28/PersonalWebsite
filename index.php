@@ -27,7 +27,7 @@ Jonathan Champion
     <body id="main">
         <? include("header.php") ?>
 
-        <div class="col12"></div>
+        <div class="col11"></div>
         <div id="tall" class="clear"></div>
 
         <div class="col1"></div>
@@ -41,7 +41,7 @@ Jonathan Champion
         </div>
         
         <!--    Center Divider    -->
-        <div class="col1 middle"></div>
+        
         <div class="col1 middle"></div>
 
         <!--    Right Box    -->

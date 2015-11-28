@@ -9,7 +9,7 @@
             <h1>Jonathan Champion</h1>
             <h2>Game Programmer</h2>
         </div>
-        <nav class="col5" >
+        <nav class="col4" >
             
             
             
@@ -22,6 +22,6 @@
                 
             
         </nav>
-        <div class="col1" class="clear"></div>
+<!--        <div class="col1" class="clear"></div>-->
         
     </header>
