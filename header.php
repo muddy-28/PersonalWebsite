@@ -2,7 +2,7 @@
     <script src="jquery-2.1.4.min.js"></script>
         <div class="col1"></div>
     <div class="col1" id="logoDiv">
-        <a href="index.php"><img class="center-cropped" src="Images/logo400.gif"></a>
+        <a class="fill"  href="index.php"></a>
         </div>
         <div id="title" class="col4" class="clear" >
             
@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="about.php">About</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
                 

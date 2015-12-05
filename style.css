@@ -20,6 +20,7 @@ header img{
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+    height: 100px;
 }
 
 #title h1 {
@@ -95,6 +96,11 @@ footer p {
     height: 1px;
     background: #4f829e;
 }
+a.fill {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 .mainpagecontentbox{
     margin-top: 3%;
     margin-bottom: 3%;
@@ -106,9 +112,33 @@ footer p {
     overflow: hidden;
     
 }
+.profile {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.maincontent{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 0;
+}
 .middle{
     margin-top: 3%;
     margin-bottom: 3%;
+}
+.border {
+    border: 4px solid #25a5e5;
+}
+article {
+/*    background: #4f829e;*/
+    background: #363636;
+}
+article h1, article p, article h2 {
+    padding: 20px;
+    margin: 0;
+/*    color: #363636;*/
 }
 
 .center-cropped {
@@ -170,6 +200,7 @@ footer p {
 @media screen and (max-width: 460px){
     #logoDiv {
         width: 81.5%;
+        height: 300px;
         
     }
     #title {

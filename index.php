@@ -1,3 +1,4 @@
+<!doctype html>
 <!--
 /*******************************************/
 /*------------CHAMPION HOMEPAGE------------*/
@@ -14,12 +15,12 @@ Jonathan Champion
 
 /-->
 <?php require_once( 'couch/cms.php' ); ?>
-    <!doctype html>
+    
     <html>
 
     <head>
         <meta charset="UTF-8">
-        <title>Untitled Document</title>
+        <title>Champion Programming</title>
         <link href="grid.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
     </head>
@@ -27,17 +28,13 @@ Jonathan Champion
     <body id="main">
         <? include("header.php") ?>
 
-        <div class="col11"></div>
-        <div id="tall" class="clear"></div>
+        <div class="clear"></div>
 
         <div class="col1"></div>
 
         <!--    Left Box    -->
         <div class="col4 mainpagecontentbox" id="mainpagecontentbox1" style="background-image: url(<cms:editable name='left_box_image' label='left image' type='image'></cms:editable>)">
-                <a href="#">
-                    <!--     Fake Image that will be Transparent       -->
-                    <img class="center-cropped" src="<cms:editable name='left_box_image' label='left image' type='image'></cms:editable>">
-                </a>
+                <a class="fill" href="#"></a>
         </div>
         
         <!--    Center Divider    -->
@@ -46,9 +43,8 @@ Jonathan Champion
 
         <!--    Right Box    -->
         <div class="col4 mainpagecontentbox" id="mainpagecontentbox2" style="background-image: url(<cms:editable name='right_box_image' label='right image' type='image'></cms:editable>)">
-            <a href="#">
-                <!--     Fake Image that will be Transparent       -->
-                <img class="center-cropped" src="<cms:editable name='right_box_image' label='right image' type='image'></cms:editable>">
+            <a class="fill"  href="#">
+                
             </a>
         </div>
         
@@ -65,10 +61,10 @@ Jonathan Champion
                  $('.middle').css({
                     'height': cw + 'px'
                 });
-                 var lw =$('#logoDiv').width();
-                 $('#logoDiv').css({
-                    'height': lw + 'px'
-                });
+            //     var lw =$('#logoDiv').width();
+            //     $('#logoDiv').css({
+            //        'height': lw + 'px'
+            //    });
             };
             resize();
             
@@ -77,7 +73,7 @@ Jonathan Champion
         
 
         <div class="col1"></div>
-        <div class="clear"></div>
+        
         <? include("footer.php") ?>
     </body>
 
