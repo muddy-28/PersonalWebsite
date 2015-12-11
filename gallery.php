@@ -14,31 +14,31 @@
     <div class="col1"></div> 
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery1' label='gallery1' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery2' label='gallery2' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery3' label='gallery3' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery4' label='gallery4' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery5' label='gallery5' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
@@ -48,31 +48,31 @@
     <div class="col1"></div> 
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery6' label='gallery6' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery7' label='gallery7' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery8' label='gallery8' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery9' label='gallery9' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
     
     <div class="col1 border resize galleryDiv">
-    
+    <img class="galleryimg" src="<cms:editable name='gallery10' label='gallery10' type='image'></cms:editable>">
     </div>
     
     <div class="col1"></div>
