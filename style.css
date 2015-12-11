@@ -135,10 +135,18 @@ article {
 /*    background: #4f829e;*/
     background: #363636;
 }
-article h1, article p, article h2 {
-    padding: 20px;
+article h1{
+    padding: 0px 20px 10px;
+    margin: 0;
+}
+
+article p, article h2, article ul {
+    padding: 10px 20px 10px;
     margin: 0;
 /*    color: #363636;*/
+}
+article ul{
+    margin-left: 40px;
 }
 
 .center-cropped {

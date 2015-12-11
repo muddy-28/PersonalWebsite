@@ -17,15 +17,23 @@
     
     <div class="col6 border maincontent">
         <article>
-            <h1>Some Heading</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nunc justo. Etiam tempus laoreet erat. Etiam semper dapibus justo vel sodales. Donec vitae dignissim mauris. Duis pretium justo in laoreet porttitor. Cras urna risus, consectetur ut consectetur at, vulputate et arcu. Nullam placerat mi ac risus venenatis finibus. Vestibulum sed dui tincidunt, efficitur odio eget, mollis ex. Mauris sed egestas erat, quis eleifend orci.
+            <h1>About Me</h1>
+            <p>I am a creative and determined programmer with a focus on game programming. I am currently attending Ferris State University for 3d Animation and Game Design. I am also a Junior Developer at <a href="http://www.yeticgi.com">YETi CGI</a>.
             </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nunc justo. Etiam tempus laoreet erat. Etiam semper dapibus justo vel sodales. Donec vitae dignissim mauris. Duis pretium justo in laoreet porttitor. Cras urna risus, consectetur ut consectetur at, vulputate et arcu. Nullam placerat mi ac risus venenatis finibus. Vestibulum sed dui tincidunt, efficitur odio eget, mollis ex. Mauris sed egestas erat, quis eleifend orci.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nunc justo. Etiam tempus laoreet erat. Etiam semper dapibus justo vel sodales. Donec vitae dignissim mauris. Duis pretium justo in laoreet porttitor. Cras urna risus, consectetur ut consectetur at, vulputate et arcu. Nullam placerat mi ac risus venenatis finibus. Vestibulum sed dui tincidunt, efficitur odio eget, mollis ex. Mauris sed egestas erat, quis eleifend orci.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nunc justo. Etiam tempus laoreet erat. Etiam semper dapibus justo vel sodales. Donec vitae dignissim mauris. Duis pretium justo in laoreet porttitor. Cras urna risus, consectetur ut consectetur at, vulputate et arcu. Nullam placerat mi ac risus venenatis finibus. Vestibulum sed dui tincidunt, efficitur odio eget, mollis ex. Mauris sed egestas erat, quis eleifend orci.
-            </p>
+            <h1>Skills</h1>
+            <ul>
+                <li>C#</li>
+                <li>Action Script 3</li>
+                <li>Processing</li>
+                <li>Unity3D</li>
+                <li>Flash Professional</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Unreal Engine 4</li>
+                <li>3DS Max</li>
+                
+            </ul>
+        
         </article>
     </div>
     

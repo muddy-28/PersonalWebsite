@@ -9,8 +9,73 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body id="main">
-    <? include("header.php") ?>
+<? include("header.php") ?>
     
+    <div class="col1"></div> 
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col11"></div>
+    
+    <div class="col1"></div> 
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
+    
+    <div class="col1 border resize galleryDiv">
+    
+    </div>
+    
+    <div class="col1"></div>
     
     
 

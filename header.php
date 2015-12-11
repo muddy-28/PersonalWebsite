@@ -17,11 +17,11 @@
                 <li><a href="about.php">About</a></li>
                 <li><a href="gallery.php">Gallery</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="#">Resume</a></li>
+                <li><a href="pdf/Champion_Resume.pdf" target="_blank">Resume</a></li>
             </ul>
                 
             
         </nav>
-<!--        <div class="col1" class="clear"></div>-->
+        <div class="col11" class="clear"></div>
         
     </header>
