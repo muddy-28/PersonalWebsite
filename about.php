@@ -7,6 +7,7 @@
     <title>Untitled Document</title>
     <link href="grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="lightbox.css" rel="stylesheet">
 </head>
 <body id="main">
         <? include("header.php") ?>

@@ -1,5 +1,7 @@
 <header>
     <script src="jquery-2.1.4.min.js"></script>
+    <script src="lightbox.min.js"></script>
+    
         <div class="col1"></div>
     <div class="col1" id="logoDiv">
         <a class="fill"  href="index.php"></a>
