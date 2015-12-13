@@ -11,8 +11,8 @@
         </div>
         <nav class="col5" >
             <ul>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/jonathan-champion-2b6576b0">LinkedIn</a></li>
+                <li><a href="https://github.com/ChampionJ">GitHub</a></li>
             </ul>
         </nav>
         <div class="col1"></div>

@@ -8,12 +8,13 @@
     <link href="grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="lightbox.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/favicon.gif">
 </head>
 <body id="main">
 <? include("header.php") ?>
     <div class="col3"></div>
 
-    <div class="col5 border maincontent">
+    <div class="col5 staticborder maincontent expand">
         <article>
         <?php 
 $action=$_REQUEST['action']; 

@@ -8,11 +8,12 @@
     <link href="grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="lightbox.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/favicon.gif">
 </head>
 <body id="main">
 <? include("header.php") ?>
     
-    <div class="col1"></div> 
+    <div class="col1 delete"></div> 
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable name='gallery1' label='gallery1' type='image' group='gallery1'></cms:editable>"
@@ -22,7 +23,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery2' name='gallery2' label='gallery2' type='image'></cms:editable>"
@@ -32,7 +33,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery3' name='gallery3' label='gallery3' type='image'></cms:editable>"
@@ -42,7 +43,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a href="<cms:editable group='gallery4' name='gallery4' label='gallery4' type='image'></cms:editable>"
@@ -52,7 +53,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery5' name='gallery5' label='gallery5' type='image'></cms:editable>"
@@ -62,11 +63,11 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
-    <div class="col11"></div>
+    <div class="col11 delete"></div>
     
-    <div class="col1"></div> 
+    <div class="col1 delete"></div> 
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery6' name='gallery6' label='gallery6' type='image'></cms:editable>"
@@ -76,7 +77,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a href="<cms:editable group='gallery7' name='gallery7' label='gallery7' type='image'></cms:editable>"
@@ -86,7 +87,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a href="<cms:editable group='gallery8' name='gallery8' label='gallery8' type='image'></cms:editable>"
@@ -96,7 +97,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery9' name='gallery9' label='gallery9' type='image'></cms:editable>"
@@ -106,7 +107,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     <div class="col1 border resize galleryDiv">
         <a class="fill"  href="<cms:editable group='gallery10' name='gallery10' label='gallery10' type='image'></cms:editable>"
@@ -116,7 +117,7 @@
         </a>
     </div>
     
-    <div class="col1"></div>
+    <div class="col1 delete"></div>
     
     
 

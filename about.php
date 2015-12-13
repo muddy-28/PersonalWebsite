@@ -8,6 +8,7 @@
     <link href="grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="lightbox.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Images/favicon.gif">
 </head>
 <body id="main">
         <? include("header.php") ?>
@@ -16,10 +17,10 @@
 
         <div class="col1"></div>
     
-    <div class="col6 border maincontent">
+    <div class="col6 staticborder maincontent">
         <article>
             <h1>About Me</h1>
-            <p>I am a creative and determined programmer with a focus on game programming. I am currently attending Ferris State University for 3d Animation and Game Design. I am also a Junior Developer at <a href="http://www.yeticgi.com">YETi CGI</a>.
+            <p>I am a creative and determined programmer with a focus on game programming. I am currently attending Ferris State University for 3d Animation and Game Design. I am also a Junior Developer at <a class="show" href="http://www.yeticgi.com">YETi CGI</a>.
             </p>
             <h1>Skills</h1>
             <ul>
@@ -40,7 +41,7 @@
     
     <div class="col1 middle"></div>
     
-    <div class="col2 border maincontent">
+    <div class="col2 staticborder maincontent">
         <img class="profile" src="<cms:editable name='profile_picture' label='profile' type='image'></cms:editable>">
     </div>
 
