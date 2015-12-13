@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>About - Champion Programming</title>
     <link href="grid.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="lightbox.css" rel="stylesheet">

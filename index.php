@@ -35,7 +35,7 @@ Jonathan Champion
 
         <!--    Left Box    -->
         <div class="col4 mainpagecontentbox resize" id="mainpagecontentbox1" style="background-image: url(<cms:editable name='left_box_image' label='left image' type='image'></cms:editable>)">
-                <a class="fill" href="#"></a>
+                <a class="fill" href="gallery.php"></a>
         </div>
         
         <!--    Center Divider    -->
@@ -44,7 +44,7 @@ Jonathan Champion
 
         <!--    Right Box    -->
         <div class="col4 mainpagecontentbox resize" id="mainpagecontentbox2" style="background-image: url(<cms:editable name='right_box_image' label='right image' type='image'></cms:editable>)">
-            <a class="fill"  href="#">
+            <a class="fill"  href="gallery.php">
                 
             </a>
         </div>

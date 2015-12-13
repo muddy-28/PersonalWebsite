@@ -24,3 +24,5 @@ resize();
 $(window).resize(function () {
     resize()
 });
+
+lightbox.option({'showImageNumberLabel': false})

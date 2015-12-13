@@ -42,10 +42,10 @@ body:after {
 
 .lb-outerContainer {
   position: relative;
-  background-color: white;
+  background-color: #25a5e5;
   *zoom: 1;
   width: 250px;
-  height: 250px;
+  height: 200px;
   margin: 0 auto;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -208,6 +208,8 @@ body:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-.lb-caption h1 {
-    font-size: 36px;
+span.lb-caption {
+    font-family: "helvetica", "arial", sans-serif;
+    font-size: 16px;
+    color: white;
 }

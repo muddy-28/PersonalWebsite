@@ -1,4 +1,4 @@
-p, a, li, h1, h2, h3, h4, h5 {
+p, a, li, h1, h2, h3, h4, h5, label {
     font-family: "helvetica", "arial", sans-serif;
     font-size: 16px;
     color: #25a5e5;
@@ -34,6 +34,7 @@ header img{
     color: #4f829e;
     text-transform: uppercase;
 /*    float: left;*/
+    margin-right: 60px;
 }
 html {
     background: #363636;
@@ -171,7 +172,26 @@ a {
   opacity: 0;
     
 }
-
+form{
+    padding: 20px;
+}
+form label {
+    text-align: right;
+    float: left;
+    width: 25%;
+}
+form div {
+    padding-bottom: 20px;
+}
+input, textarea{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+#submit {
+    width: 25%;
+}
 @media screen and (max-width: 900px){
     .mainpagecontentbox  {
         width: 80.81%;
@@ -214,6 +234,7 @@ a {
     #title h2 {
         float: right;
         padding-left: 30px;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 460px){
@@ -246,6 +267,7 @@ a {
         width:100%;
         margin: 0;
         padding: 0;
+        padding-left: 10%;
     }
     header nav ul {
         padding: 0;
